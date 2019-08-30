@@ -9,7 +9,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Login</title>
+    <style type="text/css">
+      .footer{
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	background: #3b83bd ;
+	color: white;
+}
+    </style>
   </head>
   <body>
 
@@ -45,11 +54,14 @@
         <div class="col-12 col-md-4 col-lg"></div>
         <div class="col-12 col-md-4 col-lg">
             <form action="inicio.php" method="post">
+              <div class="container">
+                <img src="img/login.png" alt=""> 
+              </div>
               <div class="form-group">
                   <label for="exampleInputEmail1"><h5>Usuario</h5></label>
                   <input type="text" class="form-control"  
                     name="usuario"
-                  aria-describedby="emailHelp" placeholder="por favor escribre el nombre de usuario">
+                  aria-describedby="emailHelp" placeholder="por favor escribe tu nombre de usuario">
               </div>
               <div class="form-group">
                   <label for="exampleInputPassword1"><h5>Contraseña</h5></label>
@@ -61,14 +73,23 @@
             </form>
         <form action="registro.php" method="post">
           <button type="submit" class="btn btn-outline-primary btn-block">Registrate</button>
+          <div class="container">
+                <img src="img/aves.png" alt=""> 
+          </div>
         </form>
           </div>
         <div class="col-12 col-md-4 col-lg"></div>
 
     </div>
-    
-
-
+<footer class="footer text-center">
+  <div class="container">
+      <p>© 2019 BioAves </p>
+      <p>3186518852</p>
+      <p>Calle 12 #23-03 </p>
+      <p>bio_aves@gmail.com</p>
+      <p>-Todos los derechos reseravados-</p>
+  </div>
+</footer>
 
 
 
