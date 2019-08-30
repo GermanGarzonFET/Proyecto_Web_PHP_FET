@@ -9,7 +9,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Registro</title>
+    <style type="text/css">
+      .footer{
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	background: #3b83bd ;
+	color: white;
+}
+    </style>
   </head>
   <body>
 
@@ -46,6 +55,9 @@
         <div class="col-12 col-md-4 col-lg">
          <form action="conectio.php" method="post">
             <div class="form-group row">
+            <div class="container">
+                <img src="img/registro.png" alt=""> 
+              </div>
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Usuario:</label>
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="inputEmail3" >
@@ -87,7 +99,15 @@
 
     </div>
     
-
+    <footer class="footer text-center">
+  <div class="container">
+      <p>© 2019 BioAves </p>
+      <p>3186518852</p>
+      <p>Calle 12 #23-03 </p>
+      <p>bio_aves@gmail.com</p>
+      <p>-Todos los derechos reseravados-</p>
+  </div>
+</footer>
 
 
 
