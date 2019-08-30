@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>inicio</title>
+    <style type="text/css">
+      .footer{
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	background: #3b83bd ;
+	color: white;
+}
+
+    </style>
   </head>
   <body>
 
@@ -46,5 +56,57 @@
       </ul>
     </div>
   </nav>
- 
+      <div class="container text-center col-12 col-md-4 col-lg"><h5>BioAves</h5><div>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pollo1.jpg" class="d-block w-100" alt="500xp">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pollo2.jpg" class="d-block w-100" alt="500xp">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pollo3.jpg" class="d-block w-100" alt="500xp">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pollito4.jpg" class="d-block w-100" alt="500xp">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<hr>
+<div class="container">
+  <p>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+   ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+   fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+ vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+ elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+
+  </p>
+  <hr>
+<p>
+  se agregara los textos q quiera
+</p>
+</div>
+
+
+
+<footer class="footer text-center">
+  <div class="container">
+      <p>© 2019 BioAves </p>
+      <p>3186518852</p>
+      <p>Calle 12 #23-03 </p>
+      <p>bio_aves@gmail.com</p>
+      <p>-Todos los derechos reseravados-</p>
+  </div>
+</footer>
   </html>
