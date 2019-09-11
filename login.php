@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse col-3">
         <ul class="navbar-nav">
           <li class="nav-item ">
-            <a class="nav-link" href="#">Inicio </a>
+            <a class="nav-link" href="inicio.php">Inicio </a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="#">Pedidos</a>
@@ -41,7 +41,7 @@
             <a class="nav-link" href="#">Acerca de</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link " href="#">Ingresar<span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="login.php">Ingresar<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
