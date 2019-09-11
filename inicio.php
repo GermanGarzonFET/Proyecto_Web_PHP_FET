@@ -33,29 +33,30 @@
   </body>
 
   <!--Menu basico para todas las visatas-->
-
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-      <a class="navbar-brand" >BioAves</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    <div class="collapse navbar-collapse col-3">
-      <ul class="navbar-nav">
+  <div class="col-12 col-md-12 col-lg">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <a class="navbar-brand" >BioAves</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse col-3">
+        <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pedidos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Acerca de</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Ingresar</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+            <a class="nav-link " href="#">inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="login.php">Ingresar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
       <div class="container text-center col-12 col-md-4 col-lg"><h5>BioAves</h5><div>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
