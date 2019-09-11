@@ -53,7 +53,7 @@
     <div class="row">
         <div class="col-12 col-md-4 col-lg"></div>
         <div class="col-12 col-md-4 col-lg">
-         <form action="conectio.php" method="post">
+         <form action="terminos_condisiones.php" method="post">
             <div class="form-group row">
             <div class="container">
                 <img src="img/registro.png" alt=""> 
@@ -99,7 +99,7 @@
 
     </div>
     
-    <footer class="footer text-center">
+<footer class="footer text-center">
   <div class="container">
       <p>© 2019 BioAves </p>
       <p>3186518852</p>
