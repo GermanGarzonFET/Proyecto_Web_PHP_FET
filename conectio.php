@@ -1,12 +1,11 @@
 <?php
-  function conectar(){
-        $host="localhost";
-        $user="root";
-        $contra="";
-        $db="base";
 
-        $conectar=mysqli_connect($host,$user,$contra);
-        mysqli_select_db($conectar,$db);
-        return $conectar;
-    }
+$host = "localhost";
+$user = "root";
+$clave = "";
+$bd  = "proyecto_web_php_fet";
+
+$conectar = mysqli_connect($host,$user,$clave,$bd);
+
+
 ?>
