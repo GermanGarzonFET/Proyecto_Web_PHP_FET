@@ -1,4 +1,4 @@
-<?php include("conectio.php") ?>
+
 
 
 <!doctype html>
@@ -57,7 +57,7 @@
       </div>
     </nav>
 </div>
-      <div class="container text-center col-12 col-md-4 col-lg"><h5>BioAves</h5><div>
+      <div class="container text-center col-12 col-md-4 col-lg"><h1>BioAves</h1><div>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
