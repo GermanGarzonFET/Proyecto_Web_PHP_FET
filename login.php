@@ -53,25 +53,30 @@
     <div class="row">
         <div class="col-12 col-md-4 col-lg"></div>
         <div class="col-12 col-md-4 col-lg">
-          <form action="base.php" method="post">
+          <form action="comparacion.php" name="form-work" method="post">
+            
               <div class="container">
                 <img src="img/login.png" alt=""> 
               </div>
+
               <div class="form-group" >
                   <label for="exampleInputEmail1"><h5>Usuario</h5></label>
                   <input type="text" class="form-control"  
                     name="usuario"
                   aria-describedby="emailHelp" placeholder="por favor escribe tu nombre de usuario">
               </div>
+
               <div class="form-group">
                   <label for="exampleInputPassword1"><h5>Contraseña</h5></label>
                   <input type="password" class="form-control"
                     name="contrasena"
                   id="exampleInputPassword1" placeholder="por favor escribe tu contraseñas">
               </div>
+
               <button type="submit" class="btn btn-outline-primary btn-block">Enviar</button>
             </form>
             
+
         <form action="registro.php" method="post">
           <button type="submit" class="btn btn-outline-primary btn-block">Registrate</button>
           <div class="container">
